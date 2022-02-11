@@ -343,7 +343,7 @@ def changeInfo(lst, pos, element):
         error.reraise(exp, 'List->changeInfo: ')
 
 
-def subList(lst, pos, numelem):
+def List(lst, pos, numelem):
     """ Retorna una sublista de la lista lst.
 
     Se retorna una lista que contiene los elementos a partir de la
